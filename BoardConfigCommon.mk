@@ -21,6 +21,9 @@ BOARD_VENDOR := motorola-qcom
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
 
+# clang
+USE_CLANG_PLATFORM_BUILD := true
+
 # Platform
 TARGET_BOARD_PLATFORM := msm8916
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno306
